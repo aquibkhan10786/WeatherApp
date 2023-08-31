@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.weather-card{
+  margin-top: 20px;
+  border:2px solid black;
+  height:350px;
+  width:400px;
+  border-radius: 20px;
+  border-style: inset;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+input{
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-style: inset;
+
+}
+button{
+  margin: 10px;
+  height:30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-style: inset;
+}
+.App-header {
+  background-color: #1b3261;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
