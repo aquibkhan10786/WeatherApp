@@ -22,6 +22,7 @@ function App() {
         <h1>Weather App</h1>
         <SearchBar onSearch={handleSearch} />
         {weatherData && <WeatherCard weatherData={weatherData} />}
+     <h6>Created by Mohd Aquib Khan</h6>
       </header>
     </div>
   );
