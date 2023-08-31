@@ -12,7 +12,7 @@
   height:350px;
   width:400px;
   border-radius: 20px;
-  border-style: inset;
+  border-style: outset;
 }
 
 @media (prefers-reduced-motion: no-preference) {
